@@ -1,0 +1,235 @@
+Analysis & Synthesis report for fpga1
+Tue Oct 22 10:34:40 2013
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. General Register Statistics
+  8. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                ;
++-----------------------------+-----------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Tue Oct 22 10:34:40 2013         ;
+; Quartus II Version          ; 9.0 Build 235 06/17/2009 SP 2 SJ Full Version ;
+; Revision Name               ; fpga1                                         ;
+; Top-level Entity Name       ; exo2                                          ;
+; Family                      ; FLEX10K                                       ;
+; Total logic elements        ; 20                                            ;
+; Total pins                  ; 14                                            ;
+; Total memory bits           ; 0                                             ;
++-----------------------------+-----------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                 ;
++--------------------------------------------------------------+----------------+---------------+
+; Option                                                       ; Setting        ; Default Value ;
++--------------------------------------------------------------+----------------+---------------+
+; Device                                                       ; EPF10K10LC84-3 ;               ;
+; Top-level entity name                                        ; exo2           ; fpga1         ;
+; Family name                                                  ; FLEX10K        ; Stratix       ;
+; Use smart compilation                                        ; Off            ; Off           ;
+; Create Debugging Nodes for IP Cores                          ; Off            ; Off           ;
+; Preserve fewer node names                                    ; On             ; On            ;
+; Disable OpenCore Plus hardware evaluation                    ; Off            ; Off           ;
+; Verilog Version                                              ; Verilog_2001   ; Verilog_2001  ;
+; VHDL Version                                                 ; VHDL93         ; VHDL93        ;
+; State Machine Processing                                     ; Auto           ; Auto          ;
+; Safe State Machine                                           ; Off            ; Off           ;
+; Extract Verilog State Machines                               ; On             ; On            ;
+; Extract VHDL State Machines                                  ; On             ; On            ;
+; Ignore Verilog initial constructs                            ; Off            ; Off           ;
+; Iteration limit for constant Verilog loops                   ; 5000           ; 5000          ;
+; Iteration limit for non-constant Verilog loops               ; 250            ; 250           ;
+; Add Pass-Through Logic to Inferred RAMs                      ; On             ; On            ;
+; Parallel Synthesis                                           ; Off            ; Off           ;
+; NOT Gate Push-Back                                           ; On             ; On            ;
+; Power-Up Don't Care                                          ; On             ; On            ;
+; Remove Redundant Logic Cells                                 ; Off            ; Off           ;
+; Remove Duplicate Registers                                   ; On             ; On            ;
+; Ignore CARRY Buffers                                         ; Off            ; Off           ;
+; Ignore CASCADE Buffers                                       ; Off            ; Off           ;
+; Ignore GLOBAL Buffers                                        ; Off            ; Off           ;
+; Ignore ROW GLOBAL Buffers                                    ; Off            ; Off           ;
+; Ignore LCELL Buffers                                         ; Off            ; Off           ;
+; Ignore SOFT Buffers                                          ; On             ; On            ;
+; Limit AHDL Integers to 32 Bits                               ; Off            ; Off           ;
+; Auto Implement in ROM                                        ; Off            ; Off           ;
+; Optimization Technique                                       ; Area           ; Area          ;
+; Carry Chain Length                                           ; 32             ; 32            ;
+; Cascade Chain Length                                         ; 2              ; 2             ;
+; Auto Carry Chains                                            ; On             ; On            ;
+; Auto Open-Drain Pins                                         ; On             ; On            ;
+; Auto ROM Replacement                                         ; On             ; On            ;
+; Auto RAM Replacement                                         ; On             ; On            ;
+; Auto Clock Enable Replacement                                ; On             ; On            ;
+; Strict RAM Replacement                                       ; Off            ; Off           ;
+; Auto Resource Sharing                                        ; Off            ; Off           ;
+; Allow Any RAM Size For Recognition                           ; Off            ; Off           ;
+; Allow Any ROM Size For Recognition                           ; Off            ; Off           ;
+; Use LogicLock Constraints during Resource Balancing          ; On             ; On            ;
+; Ignore translate_off and synthesis_off directives            ; Off            ; Off           ;
+; Show Parameter Settings Tables in Synthesis Report           ; On             ; On            ;
+; HDL message level                                            ; Level2         ; Level2        ;
+; Suppress Register Optimization Related Messages              ; Off            ; Off           ;
+; Number of Removed Registers Reported in Synthesis Report     ; 100            ; 100           ;
+; Number of Inverted Registers Reported in Synthesis Report    ; 100            ; 100           ;
+; Block Design Naming                                          ; Auto           ; Auto          ;
+; Synthesis Effort                                             ; Auto           ; Auto          ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal ; On             ; On            ;
+; Analysis & Synthesis Message Level                           ; Medium         ; Medium        ;
++--------------------------------------------------------------+----------------+---------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                        ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                  ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------+
+; inf_eq_9.bdf                     ; yes             ; User Block Diagram/Schematic File        ; H:/tparc/TP2/exo2/inf_eq_9.bdf                ;
+; exo2.bdf                         ; yes             ; User Block Diagram/Schematic File        ; H:/tparc/TP2/exo2/exo2.bdf                    ;
+; Add4.gdf                         ; yes             ; Auto-Found Graphic Design File           ; G:/l3info/tparc/max2lib/combinatoire/Add4.gdf ;
+; zero.gdf                         ; yes             ; Auto-Found Graphic Design File           ; G:/l3info/tparc/max2lib/combinatoire/zero.gdf ;
+; tri4.gdf                         ; yes             ; Auto-Found Graphic Design File           ; G:/l3info/tparc/max2lib/combinatoire/tri4.gdf ;
+; un.gdf                           ; yes             ; Auto-Found Graphic Design File           ; G:/l3info/tparc/max2lib/combinatoire/un.gdf   ;
+; sel4.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; H:/tparc/max2lib/sel4.bdf                     ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------------+------------+
+; Resource                       ; Usage      ;
++--------------------------------+------------+
+; Total logic elements           ; 20         ;
+; Total combinational functions  ; 20         ;
+;     -- Total 4-input functions ; 12         ;
+;     -- Total 3-input functions ; 8          ;
+;     -- Total 2-input functions ; 0          ;
+;     -- Total 1-input functions ; 0          ;
+;     -- Total 0-input functions ; 0          ;
+; Total registers                ; 0          ;
+; I/O pins                       ; 14         ;
+; Maximum fan-out node           ; Y[3]       ;
+; Maximum fan-out                ; 7          ;
+; Total fan-out                  ; 79         ;
+; Average fan-out                ; 2.32       ;
++--------------------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                    ;
++----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
+; |exo2                      ; 20 (0)      ; 0            ; 0           ; 14   ; 20 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |exo2               ; work         ;
+;    |Add4:inst16|           ; 2 (2)       ; 0            ; 0           ; 0    ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |exo2|Add4:inst16   ; work         ;
+;    |Add4:inst|             ; 9 (9)       ; 0            ; 0           ; 0    ; 9 (9)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |exo2|Add4:inst     ; work         ;
+;    |sel4:inst20|           ; 3 (3)       ; 0            ; 0           ; 0    ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |exo2|sel4:inst20   ; work         ;
+;    |tri4:inst1|            ; 3 (3)       ; 0            ; 0           ; 0    ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |exo2|tri4:inst1    ; work         ;
+;    |tri4:inst2|            ; 3 (3)       ; 0            ; 0           ; 0    ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |exo2|tri4:inst2    ; work         ;
++----------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+    Info: Processing started: Tue Oct 22 10:34:37 2013
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TP2 -c fpga1
+Info: Found 1 design units, including 1 entities, in source file inf_eq_9.bdf
+    Info: Found entity 1: inf_eq_9
+Info: Found 1 design units, including 1 entities, in source file exo2.bdf
+    Info: Found entity 1: exo2
+Info: Elaborating entity "exo2" for the top level hierarchy
+Warning: Using design file G:/l3info/tparc/max2lib/combinatoire/Add4.gdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: Add4
+Info: Elaborating entity "Add4" for hierarchy "Add4:inst16"
+Warning: Using design file G:/l3info/tparc/max2lib/combinatoire/zero.gdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: zero
+Info: Elaborating entity "zero" for hierarchy "zero:inst13"
+Warning: Using design file G:/l3info/tparc/max2lib/combinatoire/tri4.gdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: tri4
+Info: Elaborating entity "tri4" for hierarchy "tri4:inst1"
+Info: Elaborating entity "inf_eq_9" for hierarchy "inf_eq_9:inst3"
+Warning: Using design file G:/l3info/tparc/max2lib/combinatoire/un.gdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: un
+Info: Elaborating entity "un" for hierarchy "un:inst11"
+Warning: Using design file ../../max2lib/sel4.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: sel4
+Info: Elaborating entity "sel4" for hierarchy "sel4:inst20"
+Info: Ignored 1 buffer(s)
+    Info: Ignored 1 SOFT buffer(s)
+Warning: Tri-state node(s) do not directly drive top-level pin(s)
+    Warning: Converted the fan-out from the tri-state buffer "tri4:inst2|4" to the node "Add4:inst|45" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "tri4:inst1|4" to the node "Add4:inst|45" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "tri4:inst2|3" to the node "Add4:inst|21" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "tri4:inst1|3" to the node "Add4:inst|21" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "tri4:inst2|2" to the node "Add4:inst|20" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "tri4:inst1|2" to the node "Add4:inst|20" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "tri4:inst2|1" to the node "Add4:inst|19" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "tri4:inst1|1" to the node "Add4:inst|19" into an OR gate
+Warning: Always-enabled tri-state buffer(s) removed
+    Warning: Converted the fanout from the always-enabled tri-state buffer "sel4:inst20|inst[3]" to the node "S[3]" into a wire
+    Warning: Converted the fanout from the always-enabled tri-state buffer "sel4:inst20|inst[2]" to the node "S[2]" into a wire
+    Warning: Converted the fanout from the always-enabled tri-state buffer "sel4:inst20|inst[1]" to the node "S[1]" into a wire
+    Warning: Converted the fanout from the always-enabled tri-state buffer "sel4:inst20|inst[0]" to the node "S[0]" into a wire
+Info: Implemented 34 device resources after synthesis - the final resource count might be different
+    Info: Implemented 9 input pins
+    Info: Implemented 5 output pins
+    Info: Implemented 20 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 19 warnings
+    Info: Peak virtual memory: 194 megabytes
+    Info: Processing ended: Tue Oct 22 10:34:40 2013
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,62 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+18
+1121
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+G:|l3info|tparc|max2lib|sequentiel|
+G:|l3info|tparc|max2lib|combinatoire|
+..|..|max2lib|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+exo1
+# storage
+db|fpga1.(0).cnf
+db|fpga1.(0).cnf
+# case_insensitive
+# source_file
+exo1.bdf
+96e0a38c7b2b15af8c5639f6fc0cc5e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+fpga1
+# storage
+db|fpga1.(1).cnf
+db|fpga1.(1).cnf
+# case_insensitive
+# source_file
+fpga1.bdf
+6a5ea33c60937c26f2b19fe6c6dd8363
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

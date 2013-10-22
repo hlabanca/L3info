@@ -1,0 +1,164 @@
+|exo2
+Rs <= Add4:inst16.C4
+Re => Add4:inst.C0
+X[0] => tri4:inst1.e0
+X[1] => tri4:inst1.e1
+X[1] => inf_eq_9:inst3.X[1]
+X[2] => tri4:inst1.e2
+X[2] => inf_eq_9:inst3.X[2]
+X[3] => tri4:inst1.e3
+X[3] => inf_eq_9:inst3.X[3]
+Y[0] => tri4:inst2.e0
+Y[1] => tri4:inst2.e1
+Y[1] => inf_eq_9:inst4.X[1]
+Y[2] => tri4:inst2.e2
+Y[2] => inf_eq_9:inst4.X[2]
+Y[3] => tri4:inst2.e3
+Y[3] => inf_eq_9:inst4.X[3]
+S[0] <= sel4:inst20.S[0]
+S[1] <= sel4:inst20.S[1]
+S[2] <= sel4:inst20.S[2]
+S[3] <= sel4:inst20.S[3]
+
+
+|exo2|Add4:inst16
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B3 => 22.IN0
+B3 => 26.IN0
+A3 => 22.IN1
+A3 => 26.IN1
+B2 => 21.IN0
+B2 => 25.IN0
+A2 => 21.IN1
+A2 => 25.IN1
+B1 => 20.IN0
+B1 => 24.IN0
+A1 => 20.IN1
+A1 => 24.IN1
+B0 => 19.IN0
+B0 => 23.IN0
+A0 => 19.IN1
+A0 => 23.IN1
+C0 => 17.IN0
+S3 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S0 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exo2|zero:inst13
+0 <= <GND>
+
+
+|exo2|Add4:inst
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B3 => 22.IN0
+B3 => 26.IN0
+A3 => 22.IN1
+A3 => 26.IN1
+B2 => 21.IN0
+B2 => 25.IN0
+A2 => 21.IN1
+A2 => 25.IN1
+B1 => 20.IN0
+B1 => 24.IN0
+A1 => 20.IN1
+A1 => 24.IN1
+B0 => 19.IN0
+B0 => 23.IN0
+A0 => 19.IN1
+A0 => 23.IN1
+C0 => 17.IN0
+S3 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S0 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exo2|tri4:inst1
+s0 <= 1.DB_MAX_OUTPUT_PORT_TYPE
+e0 => 1.DATAIN
+v => 1.OE
+v => 2.OE
+v => 3.OE
+v => 4.OE
+s1 <= 2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => 2.DATAIN
+s2 <= 3.DB_MAX_OUTPUT_PORT_TYPE
+e2 => 3.DATAIN
+s3 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+e3 => 4.DATAIN
+
+
+|exo2|inf_eq_9:inst3
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+X[1] => inst1.IN1
+X[2] => inst1.IN0
+X[3] => inst.IN0
+
+
+|exo2|tri4:inst2
+s0 <= 1.DB_MAX_OUTPUT_PORT_TYPE
+e0 => 1.DATAIN
+v => 1.OE
+v => 2.OE
+v => 3.OE
+v => 4.OE
+s1 <= 2.DB_MAX_OUTPUT_PORT_TYPE
+e1 => 2.DATAIN
+s2 <= 3.DB_MAX_OUTPUT_PORT_TYPE
+e2 => 3.DATAIN
+s3 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+e3 => 4.DATAIN
+
+
+|exo2|inf_eq_9:inst4
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+X[1] => inst1.IN1
+X[2] => inst1.IN0
+X[3] => inst.IN0
+
+
+|exo2|zero:inst9
+0 <= <GND>
+
+
+|exo2|un:inst11
+un <= <VCC>
+
+
+|exo2|un:inst12
+un <= <VCC>
+
+
+|exo2|zero:inst10
+0 <= <GND>
+
+
+|exo2|sel4:inst20
+S[0] <= S~3.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S~2.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S~1.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S~0.DB_MAX_OUTPUT_PORT_TYPE
+X[0] => inst[0].DATAIN
+X[1] => inst[1].DATAIN
+X[2] => inst[2].DATAIN
+X[3] => inst[3].DATAIN
+C => inst[3].OE
+C => inst[2].OE
+C => inst[1].OE
+C => inst[0].OE
+C => inst5.IN0
+Y[0] => inst3[0].DATAIN
+Y[1] => inst3[1].DATAIN
+Y[2] => inst3[2].DATAIN
+Y[3] => inst3[3].DATAIN
+
+
+|exo2|inf_eq_9:inst5
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+X[1] => inst1.IN1
+X[2] => inst1.IN0
+X[3] => inst.IN0
+
+

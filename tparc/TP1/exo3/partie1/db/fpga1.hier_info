@@ -1,0 +1,54 @@
+|fpga1
+sortie0 <= sel4:inst.S[0]
+poussoir0 => sel4:inst.C
+clavier3 => sel4:inst.X[3]
+clavier2 => sel4:inst.X[2]
+clavier1 => sel4:inst.X[1]
+clavier0 => sel4:inst.X[0]
+cle3 => sel4:inst.Y[3]
+cle2 => sel4:inst.Y[2]
+cle1 => sel4:inst.Y[1]
+cle0 => sel4:inst.Y[0]
+sortie1 <= sel4:inst.S[1]
+sortie2 <= sel4:inst.S[2]
+sortie3 <= sel4:inst.S[3]
+sortie4 <= <GND>
+sortie5 <= <GND>
+sortie6 <= <GND>
+sortie7 <= <GND>
+sortie8 <= <GND>
+sortie9 <= <GND>
+sortie10 <= <GND>
+sortie11 <= <GND>
+sortie12 <= <GND>
+sortie13 <= <GND>
+sortie14 <= <GND>
+sortie15 <= <GND>
+poussoir1 => ~NO_FANOUT~
+poussoir2 => ~NO_FANOUT~
+cle4 => ~NO_FANOUT~
+cle5 => ~NO_FANOUT~
+cle6 => ~NO_FANOUT~
+cle7 => ~NO_FANOUT~
+
+
+|fpga1|sel4:inst
+S[0] <= S~3.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S~2.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S~1.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S~0.DB_MAX_OUTPUT_PORT_TYPE
+X[0] => inst[0].DATAIN
+X[1] => inst[1].DATAIN
+X[2] => inst[2].DATAIN
+X[3] => inst[3].DATAIN
+C => inst[3].OE
+C => inst[2].OE
+C => inst[1].OE
+C => inst[0].OE
+C => inst5.IN0
+Y[0] => inst3[0].DATAIN
+Y[1] => inst3[1].DATAIN
+Y[2] => inst3[2].DATAIN
+Y[3] => inst3[3].DATAIN
+
+

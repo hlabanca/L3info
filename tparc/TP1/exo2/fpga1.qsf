@@ -1,0 +1,79 @@
+# Copyright (C) 1991-2005 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic       
+# functions, and any output files any of the foregoing           
+# (including device programming or simulation files), and any    
+# associated documentation or information are expressly subject  
+# to the terms and conditions of the Altera Program License      
+# Subscription Agreement, Altera MegaCore Function License       
+# Agreement, or other applicable license agreement, including,   
+# without limitation, that your use is for the sole purpose of   
+# programming logic devices manufactured by Altera and sold by   
+# Altera or its authorized distributors.  Please refer to the    
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		fpga1_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 5.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:23:20  JUNE 22, 2005"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.0 SP2"
+
+# Pin & Location Assignments
+# ==========================
+set_location_assignment PIN_36 -to clavier0
+set_location_assignment PIN_37 -to clavier1
+set_location_assignment PIN_38 -to clavier2
+set_location_assignment PIN_39 -to clavier3
+set_location_assignment PIN_29 -to poussoir0
+set_location_assignment PIN_30 -to poussoir1
+set_location_assignment PIN_35 -to poussoir2
+set_location_assignment PIN_19 -to cle0
+set_location_assignment PIN_21 -to cle1
+set_location_assignment PIN_22 -to cle2
+set_location_assignment PIN_23 -to cle3
+set_location_assignment PIN_24 -to cle4
+set_location_assignment PIN_25 -to cle5
+set_location_assignment PIN_27 -to cle6
+set_location_assignment PIN_28 -to cle7
+set_location_assignment PIN_78 -to sortie0
+set_location_assignment PIN_79 -to sortie1
+set_location_assignment PIN_80 -to sortie2
+set_location_assignment PIN_81 -to sortie3
+set_location_assignment PIN_83 -to sortie4
+set_location_assignment PIN_3 -to sortie5
+set_location_assignment PIN_5 -to sortie6
+set_location_assignment PIN_6 -to sortie7
+set_location_assignment PIN_7 -to sortie8
+set_location_assignment PIN_8 -to sortie9
+set_location_assignment PIN_9 -to sortie10
+set_location_assignment PIN_10 -to sortie11
+set_location_assignment PIN_11 -to sortie12
+set_location_assignment PIN_16 -to sortie13
+set_location_assignment PIN_17 -to sortie14
+set_location_assignment PIN_18 -to sortie15
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name FAMILY FLEX10K
+set_global_assignment -name TOP_LEVEL_ENTITY fpga1
+set_global_assignment -name USER_LIBRARIES "G:\\l3info\\tparc\\max2lib\\sequentiel;G:\\l3info\\tparc\\max2lib\\combinatoire;H:\\tparc\\max2lib"
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name DEVICE "EPF10K10LC84-3"
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+
+set_global_assignment -name BDF_FILE add4group.bdf
+set_global_assignment -name BDF_FILE fpga1.bdf

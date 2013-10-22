@@ -1,0 +1,42 @@
+|fpga1
+sortie0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+poussoir1 => inst15.IN0
+poussoir1 => inst18.IN0
+poussoir1 => inst13.IN0
+poussoir1 => inst10.IN1
+poussoir1 => inst9.IN1
+poussoir2 => inst19.IN0
+poussoir2 => inst14.IN1
+poussoir2 => inst13.IN1
+poussoir0 => inst21.IN0
+poussoir0 => inst11.IN0
+poussoir0 => inst9.IN0
+sortie1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+sortie2 <= <GND>
+sortie3 <= <GND>
+sortie4 <= <GND>
+sortie5 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+sortie6 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+sortie7 <= <GND>
+sortie8 <= <GND>
+sortie9 <= <GND>
+sortie10 <= <GND>
+sortie11 <= <GND>
+sortie12 <= <GND>
+sortie13 <= <GND>
+sortie14 <= <GND>
+sortie15 <= <GND>
+clavier0 => ~NO_FANOUT~
+clavier1 => ~NO_FANOUT~
+clavier2 => ~NO_FANOUT~
+clavier3 => ~NO_FANOUT~
+cle0 => ~NO_FANOUT~
+cle1 => ~NO_FANOUT~
+cle2 => ~NO_FANOUT~
+cle3 => ~NO_FANOUT~
+cle4 => ~NO_FANOUT~
+cle5 => ~NO_FANOUT~
+cle6 => ~NO_FANOUT~
+cle7 => ~NO_FANOUT~
+
+
