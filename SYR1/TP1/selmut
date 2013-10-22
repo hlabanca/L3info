@@ -1,0 +1,15 @@
+#!/bin/sh
+
+if [ $# -ne 1 -o ! -f $1 ]
+then
+	echo "Mauvais argument. Vous devez entrer un nom de fichier."
+	exit
+fi
+while
+	echo "Entrer un entier :"
+	read i
+	test $i -ne 0
+do
+	echo "Sous-suite $i de $1 :"
+	echo $i | cat - $1 | /share/l3info/syr1/tp_unix/prog2
+done

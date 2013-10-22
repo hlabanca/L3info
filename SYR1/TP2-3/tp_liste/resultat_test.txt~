@@ -1,0 +1,103 @@
+./bin/test_list < commandes.txt
+
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+Valeur du nouvel element ? La liste contient 1 element(s)
+[2]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
+Valeur du nouvel element ? La liste contient 2 element(s)
+[1]->[2]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
+Valeur du nouvel element ? La liste contient 3 element(s)
+[1]->[2]->[3]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
+Valeur du nouvel element ? La liste contient 4 element(s)
+[1]->[2]->[3]->[8]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
+Valeur du nouvel element ? La liste contient 5 element(s)
+[1]->[2]->[3]->[8]->[4]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
+Index de l'element a rechercher ? La valeur de l'element numero 4 est 8
+La liste contient 5 element(s)
+[1]->[2]->[3]->[8]->[4]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
+Index de l'element a rechercher ? La valeur de l'element numero 1 est 1
+La liste contient 5 element(s)
+[1]->[2]->[3]->[8]->[4]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
+Valeur de l'element a supprimer ? L'element de valeur 8 a ete supprime avec succes
+La liste contient 4 element(s)
+[1]->[2]->[3]->[4]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
+Renversement des elements de la liste.
+La liste contient 4 element(s)
+[4]->[3]->[2]->[1]
+ Programme de test de listes
+  't/q' : ajout d'un element en tete/queue de liste
+  'f'   : recherche du ieme element de la liste
+  's'   : suppression d'un element de la liste
+  'r'   : renverser l'ordre des elements de la liste
+  'x'   : quitter le programme
+ Quel est votre choix ?
+
