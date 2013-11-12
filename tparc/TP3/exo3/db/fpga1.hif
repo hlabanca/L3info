@@ -1,0 +1,108 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+18
+1121
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+G:|l3info|tparc|max2lib|sequentiel|
+G:|l3info|tparc|max2lib|combinatoire|
+..|..|max2lib|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+add4group
+# storage
+db|fpga1.(1).cnf
+db|fpga1.(1).cnf
+# case_insensitive
+# source_file
+..|..|max2lib|add4group.bdf
+6bb1e39b775add53fbf44fc7ec3ba2da
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+add4group:inst4
+add4group:inst
+}
+# macro_sequence
+
+# end
+# entity
+Add4
+# storage
+db|fpga1.(2).cnf
+db|fpga1.(2).cnf
+# case_insensitive
+# source_file
+G:|l3info|tparc|max2lib|combinatoire|Add4.gdf
+925cc3d2dc1db2a19972f995fc73db8
+6
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+add4group:inst4|Add4:inst
+add4group:inst|Add4:inst
+}
+# macro_sequence
+
+# end
+# entity
+zero
+# storage
+db|fpga1.(3).cnf
+db|fpga1.(3).cnf
+# case_insensitive
+# source_file
+G:|l3info|tparc|max2lib|combinatoire|zero.gdf
+638b2deeeaf13d9b60afcafc7aeda71e
+6
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+zero:inst5
+zero:inst3
+}
+# macro_sequence
+
+# end
+# entity
+ADD3
+# storage
+db|fpga1.(0).cnf
+db|fpga1.(0).cnf
+# case_insensitive
+# source_file
+ADD3.bdf
+d3897b7c9fc3e4b9678e08d8b53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

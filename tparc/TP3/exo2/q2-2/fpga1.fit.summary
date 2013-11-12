@@ -1,0 +1,10 @@
+Fitter Status : Successful - Tue Nov 05 11:10:21 2013
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Full Version
+Revision Name : fpga1
+Top-level Entity Name : EXP2
+Family : FLEX10K
+Device : EPF10K10LC84-3
+Timing Models : Final
+Total logic elements : 2 / 576 ( < 1 % )
+Total pins : 6 / 59 ( 10 % )
+Total memory bits : 0 / 6,144 ( 0 % )

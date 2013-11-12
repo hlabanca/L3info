@@ -74,3 +74,6 @@ set_global_assignment -name USER_LIBRARIES "G:\\l3info\\tparc\\max2lib\\sequenti
 set_global_assignment -name DEVICE "EPF10K10LC84-3"
 set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+
+set_global_assignment -name BDF_FILE COMP1.bdf
+set_global_assignment -name BDF_FILE fpga1.bdf

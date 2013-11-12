@@ -66,7 +66,7 @@ set_location_assignment PIN_18 -to sortie15
 # Analysis & Synthesis Assignments
 # ================================
 set_global_assignment -name FAMILY FLEX10K
-set_global_assignment -name TOP_LEVEL_ENTITY fpga1
+set_global_assignment -name TOP_LEVEL_ENTITY ADD3
 set_global_assignment -name USER_LIBRARIES "G:\\l3info\\tparc\\max2lib\\sequentiel;G:\\l3info\\tparc\\max2lib\\combinatoire;H:\\tparc\\max2lib"
 
 # Fitter Assignments
@@ -74,3 +74,5 @@ set_global_assignment -name USER_LIBRARIES "G:\\l3info\\tparc\\max2lib\\sequenti
 set_global_assignment -name DEVICE "EPF10K10LC84-3"
 set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+
+set_global_assignment -name BDF_FILE ADD3.bdf

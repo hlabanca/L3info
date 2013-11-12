@@ -1,0 +1,107 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+18
+1121
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+G:|l3info|tparc|max2lib|sequentiel|
+G:|l3info|tparc|max2lib|combinatoire|
+..|..|..|max2lib|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+COMP1
+# storage
+db|fpga1.(2).cnf
+db|fpga1.(2).cnf
+# case_insensitive
+# source_file
+..|..|..|max2lib|COMP1.bdf
+767881e36622e461dfb690a66913aa71
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+COMP1:inst
+COMP1:inst1
+COMP1:inst2
+COMP1:inst3
+}
+# macro_sequence
+
+# end
+# entity
+fpga1
+# storage
+db|fpga1.(0).cnf
+db|fpga1.(0).cnf
+# case_insensitive
+# source_file
+fpga1.bdf
+b24b717208958539e5470f7605d8f9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+EXP2
+# storage
+db|fpga1.(3).cnf
+db|fpga1.(3).cnf
+# case_insensitive
+# source_file
+..|..|..|max2lib|EXP2.bdf
+ec677e6abe697c9fbece25a173360fb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+EXP2:inst14
+EXP2:inst12
+EXP2:inst13
+}
+# macro_sequence
+
+# end
+# entity
+COMP4
+# storage
+db|fpga1.(1).cnf
+db|fpga1.(1).cnf
+# case_insensitive
+# source_file
+COMP4.bdf
+1c93bc3f795e15e17b31cc29c7e781f6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

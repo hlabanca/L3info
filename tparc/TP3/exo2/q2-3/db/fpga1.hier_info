@@ -1,0 +1,82 @@
+|COMP4
+Sup <= EXP2:inst14.Sup
+X[0] => COMP1:inst1.Y
+X[1] => COMP1:inst1.X
+X[2] => COMP1:inst.Y
+X[3] => COMP1:inst.X
+Y[0] => COMP1:inst3.Y
+Y[1] => COMP1:inst3.X
+Y[2] => COMP1:inst2.Y
+Y[3] => COMP1:inst2.X
+Inf <= EXP2:inst14.Inf
+
+
+|COMP4|EXP2:inst14
+Sup <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SupY => inst2.IN0
+InfX => inst1.IN0
+InfX => inst5.IN0
+SupX => inst4.IN1
+SupX => inst.IN0
+Inf <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+InfY => inst3.IN0
+
+
+|COMP4|EXP2:inst12
+Sup <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SupY => inst2.IN0
+InfX => inst1.IN0
+InfX => inst5.IN0
+SupX => inst4.IN1
+SupX => inst.IN0
+Inf <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+InfY => inst3.IN0
+
+
+|COMP4|COMP1:inst
+Sup <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X => inst3.IN0
+X => inst2.IN0
+Y => inst.IN0
+Y => inst4.IN1
+Inf <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|COMP4|COMP1:inst1
+Sup <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X => inst3.IN0
+X => inst2.IN0
+Y => inst.IN0
+Y => inst4.IN1
+Inf <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|COMP4|EXP2:inst13
+Sup <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SupY => inst2.IN0
+InfX => inst1.IN0
+InfX => inst5.IN0
+SupX => inst4.IN1
+SupX => inst.IN0
+Inf <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+InfY => inst3.IN0
+
+
+|COMP4|COMP1:inst2
+Sup <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X => inst3.IN0
+X => inst2.IN0
+Y => inst.IN0
+Y => inst4.IN1
+Inf <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|COMP4|COMP1:inst3
+Sup <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X => inst3.IN0
+X => inst2.IN0
+Y => inst.IN0
+Y => inst4.IN1
+Inf <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

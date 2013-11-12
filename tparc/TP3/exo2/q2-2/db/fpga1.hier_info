@@ -1,0 +1,11 @@
+|EXP2
+Sup <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SupY => inst2.IN0
+InfX => inst1.IN0
+InfX => inst5.IN0
+SupX => inst4.IN1
+SupX => inst.IN0
+Inf <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+InfY => inst3.IN0
+
+
